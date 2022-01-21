@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+    transition: 0.2s;
+}
+
+.pepito {
+
+
+    background-color: darkorchid;
+
+    height: 25em;
+    width: 26em;
+    transition: 0.5s;
+}
+
+.juanito {
+
+
+    background-color: limegreen;
+
+    height: 25em;
+    width: 26em;
+    transition: 0.5s;
+}
+
+@media (max-width: 888px){
+
+    body {
+        flex-direction: column;
+        transition: 0.3s;
+    }
+
+    .pepito {
+        background-color: tomato;
+        transition: 0.5s;
+    }
+    .juanito {
+        background-color: maroon;
+        transition: 0.5s;
+    }
+}
